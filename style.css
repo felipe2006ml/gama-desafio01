@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    background: linear-gradient(100deg, black 50%, yellow 100%);
+    height: 98%;
+    padding-bottom: 10px;
+}
+
+#img{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#content {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 500px;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#text p{
+    color: white;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+}
+
+.inputs input {
+    height: 25px;
+    width: 250px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.enviar button{
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    margin-top: 25px;
+    background: yellow;
+    color: black;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.enviar button:hover{
+    background: black;
+    color: white;
+    border: 1px solid yellow;
+    transition: 0.5s;
+}
+
+.modal {
+    background:black;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid yellow;
+    position: fixed;
+    height: 200px;
+    width: 400px;
+    top: 30%;
+    right: 34%;
+    padding: 20px;
+}
+
+.modal-active {
+    visibility: hidden;
+}
+
+.modal p {
+    font-size: 30px;
+}
+
+.btn-modal{
+    border-radius: 5px;
+    background: yellow;
+    color: black;
+    border: none;
+}
